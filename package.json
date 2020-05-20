@@ -26,7 +26,7 @@
     "storybook": "start-storybook -p 6006",
     "build-storybook": "build-storybook"
   },
-  "author": "",
+  "author": "Meder <metaa@me.com>",
   "license": "MIT",
   "jest": {
     "setupFiles": [
@@ -71,6 +71,7 @@
     "@pmmmwh/react-refresh-webpack-plugin": "^0.3.1",
     "@storybook/cli": "^5.3.18",
     "autoprefixer": "^9.8.0",
+    "axios": "^0.19.2",
     "babel-core": "7.0.0-bridge.0",
     "babel-eslint": "10.1.0",
     "babel-jest": "^26.0.1",
@@ -171,5 +172,6 @@
       "pre-commit": "cross-env npm run lint && npm test",
       "pre-push": "cross-env npm run lint && npm test"
     }
-  }
+  },
+  "repository": "git@github.com:medertaab/skillcrucial-react-redux-boilerplate.git"
 }
